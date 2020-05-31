@@ -122,6 +122,64 @@ public class MatrixRotation {
 			}
 			row++;
 	}
+	
+	for(int j =0;j<1;j++)
+	{
+		row=1;
+		col=1;
+		m=split.length-1;
+		n=split[1].length()-1;
+		
+		
+			if(row + 1 == m || col + 1 == n)
+				break;
+
+
+			//Store the first element of the next row to the prev, this element will replace the first element of current row.
+			prev=s[row + 1][col];
+
+			//Move element of first row from the remaining rows
+			for(int i=col;i<n;i++)
+			{
+				curr=s[row][i];
+				s[row][i]=prev;
+				prev=curr;
+			}
+			row++;
+
+			//Move element of last column from the remaining columns 
+			for(int i=row;i<m;i++)
+			{
+				curr=s[i][n-1];
+				s[i][n-1]=prev;
+				prev=curr;
+			}
+			n--;
+
+			//Move elements of last row from the remaining rows
+			if(row<m)
+			{
+				for(int i=n-1;i>=col;i--)
+				{
+					curr=s[m-1][i];
+					s[m-1][i]=prev;
+					prev=curr;
+				}
+			}
+			m--;
+
+			//Move elements of first column from the remaining rows 
+			if(col<n)
+			{
+				for(int i=m-1;i>=row;i--)
+				{
+					curr=s[i][col];
+					s[i][col]=prev;
+					prev=curr;
+				}
+			}
+			col++;
+		}
 	System.out.println("After Roatation Row: "+row+" Column: "+col+" m:  "+m+" n: "+n);
 	//Print rotate matrix
 		System.out.println("Print rotate matrix");
