@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+<parameter name="mobile" value="7865443" />
+  <test name="Test">
+  
+    <classes>
+      <class name="selenium.Remya"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

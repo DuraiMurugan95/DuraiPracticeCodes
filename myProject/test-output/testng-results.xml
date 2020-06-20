@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-17T11:39:31Z" name="Default suite" finished-at="2020-06-17T11:39:32Z" duration-ms="975">
+    <groups>
+    </groups>
+    <test started-at="2020-06-17T11:39:31Z" name="Default test" finished-at="2020-06-17T11:39:32Z" duration-ms="975">
+      <class name="selenium.Remya">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:selenium.Remya@3c77d488]" started-at="2020-06-17T11:39:31Z" name="beforeMethod" finished-at="2020-06-17T11:39:31Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="fileReadandWrite()[pri:-1, instance:selenium.Remya@3c77d488]" started-at="2020-06-17T11:39:31Z" name="fileReadandWrite" finished-at="2020-06-17T11:39:32Z" duration-ms="912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileReadandWrite -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:selenium.Remya@3c77d488]" started-at="2020-06-17T11:39:32Z" name="afterMethod" finished-at="2020-06-17T11:39:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:selenium.Remya@3c77d488]" started-at="2020-06-17T11:39:32Z" name="beforeMethod" finished-at="2020-06-17T11:39:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="parametirization(java.lang.String, java.lang.String)[pri:0, instance:selenium.Remya@3c77d488]" started-at="2020-06-17T11:39:32Z" name="parametirization" finished-at="2020-06-17T11:39:32Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[param-val-not-found]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[param-val-not-found]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parametirization -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:selenium.Remya@3c77d488]" started-at="2020-06-17T11:39:32Z" name="afterMethod" finished-at="2020-06-17T11:39:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="f(java.lang.String, java.lang.String)[pri:1, instance:selenium.Remya@3c77d488]" started-at="2020-06-17T11:39:32Z" name="f" data-provider="dp" finished-at="2020-06-17T11:39:32Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium Using Python]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Educator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:selenium.Remya@3c77d488]" started-at="2020-06-17T11:39:32Z" name="beforeMethod" finished-at="2020-06-17T11:39:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:selenium.Remya@3c77d488]" started-at="2020-06-17T11:39:32Z" name="afterMethod" finished-at="2020-06-17T11:39:32Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:selenium.Remya@3c77d488]" started-at="2020-06-17T11:39:32Z" name="beforeMethod" finished-at="2020-06-17T11:39:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="f(java.lang.String, java.lang.String)[pri:1, instance:selenium.Remya@3c77d488]" started-at="2020-06-17T11:39:32Z" name="f" data-provider="dp" finished-at="2020-06-17T11:39:32Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Agile Tesing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Co Educator]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:selenium.Remya@3c77d488]" started-at="2020-06-17T11:39:32Z" name="afterMethod" finished-at="2020-06-17T11:39:32Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- selenium.Remya -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
